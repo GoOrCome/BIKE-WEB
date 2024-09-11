@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Project3</title>
+</head>
+
+<body class="w-full font-sans font-medium overflow-x-hidden">
+
+    <!-- <h1>header</h1> -->
+
+    <header class="justify-center z-40 align-middle flex flex-row bg-white  fixed w-full top-0 p-5">
+        <nav class="w-full flex border-b-[1px] border-black pb-5 flex-row justify-between">
+            <div class="flex cursor-pointer flex-row w-28 h-14 self-center">
+                <img src="./images/logo.png" alt="logo">
+            </div>
+            <div class="flex w-[27%] justify-between flex-row">
+                <select class="outline-none hover:shadow-md w-[27%] border-none" name="product" id="">
+                    <option disabled selected hidden value="product1">PRODUCTS</option>
+                    <option value="product1">SCOOTER</option>
+                    <option value="product2">BIKE TOOL</option>
+                </select>
+                <div class="justify-between p-1 w-[55%] flex flex-row">
+                    <a class="pr-2 hover:shadow-md self-center" href="#">GALLERY</a>
+                    <a class="pl-2 hover:shadow-md self-center" href="#">CONTACT</a>
+                </div>
+            </div>
+            <div class="w-[15%] justify-between text-center flex flex-row p-2">
+                <a class="text-center hover:shadow-md self-center" href="#">LOG IN</a>
+                <button
+                    class="rounded-md hover:font-bold hover:bg-[#4b4b4b] bg-black text-white pt-[10px] pb-[10px] pr-[20px] pl-[20px]">SIGN
+                    UP</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- <h1>fratures section start</h1> -->
+
+
+    <section class="mt-[130px] mb-10 justify-center flex flex-row w-full">
+        <div class="pl-6 flex flex-col w-[70%]">
+            <div class="flex flex-col p-3">
+                <h1 class="text-7xl pt-8 pb-9 font-normal">LET'S RIDE</h1>
+                <span class="text-8xl">THE FUTURE.</span>
+            </div>
+            <div class="h-[5px] mt-[80px] mb-[60px] border-2 border-black bg-black rounded-md w-[53%] ml-[32px]"></div>
+            <p class="text-[22px] mb-[47px] pl-[25px]">Simple and sleek design with users <br> in mind.</p>
+            <div class="flex flex-row justify-between">
+                <div class="flex flex-row justify-start h-full items-center w-1/2">
+                    <h1
+                        class="p-[12px] pl-[15px] cursor-pointer hover:scale-95 pr-[15px] mr-4 bg-black text-2xl text-white">
+                        &#129030;</h1>
+                    <h1 class="text-xl cursor-pointer hover:scale-95">Buy now</h1>
+                </div>
+                <div class="flex flex-row w-1/2 justify-start">
+                    <p class="mr-6 text-xl">Watch our <br> video how <br> it works</p>
+                    <img class="hover:scale-95 animate-pulse cursor-pointer" src="./images/header play button.png"
+                        alt="logo">
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col w-[100%]">
+            <img class="h-[600px] w-full" src="./images/header image.png" alt="logo">
+            <div class="flex flex-row items-center justify-end">
+                <img class="mr-9" src="./images/01.png" alt="logo">
+                <div
+                    class="flex flex-row h-[50px] w-[100px] rounded-3xl mr-11 items-center justify-center border-[1px] border-black">
+                    <button class="text-xl pl-[15px] pr-[17px] hover:font-extrabold">&lt;</button>
+                    <button
+                        class="border-l-[1px] h-full border-black text-xl pl-[17px] pr-[15px] hover:font-extrabold">&gt;</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <h1>Product short features</h1> -->
+
+
+    <section class="flex flex-row mt-10 mb-20 justify-center">
+        <div class="p-[30px] ml-[20px] mr-[20px] w-[200px] hover:shadow-2xl cursor-pointer shadow-xl">
+            <div class="flex flex-row content-center justify-center mb-[15px]">
+                <span class="text-5xl font-bold">105</span>
+                <h1 class="self-end text-xl font-bold pl-[12px]">lbs</h1>
+            </div>
+            <p class="text-center text-[15px]">Net Weight</p>
+        </div>
+        <div class="p-[30px] ml-[20px] mr-[20px] w-[200px] hover:shadow-2xl cursor-pointer shadow-xl">
+            <div class="flex flex-row content-center justify-center mb-[15px]">
+                <span class="text-5xl font-bold">26</span>
+                <h1 class="self-end text-xl font-bold pl-[12px]">mph</h1>
+            </div>
+            <p class="text-center text-[15px]">Top Speed</p>
+        </div>
+        <div class="p-[30px] ml-[20px] mr-[20px] w-[200px] hover:shadow-2xl cursor-pointer shadow-xl">
+            <div class="flex flex-row content-center justify-center mb-[15px]">
+                <span class="text-5xl font-bold">38</span>
+                <h1 class="self-end text-xl font-bold pl-[12px]">miles</h1>
+            </div>
+            <p class="text-center text-[15px]">Max Range</p>
+        </div>
+        <div class="p-[30px] ml-[20px] mr-[20px] w-[200px] hover:shadow-2xl cursor-pointer shadow-xl">
+            <div class="flex flex-row content-center justify-center mb-[15px]">
+                <span class="text-5xl font-bold">89</span>
+                <h1 class="self-end text-xl font-bold pl-[12px]">nm</h1>
+            </div>
+            <p class="text-center text-[15px]">Max Torques</p>
+        </div>
+        <div
+            class="pl-[10px] pr-[10px] pt-[30px] pb-[30px] ml-[20px] mr-[20px] w-[200px] hover:shadow-2xl cursor-pointer shadow-xl">
+            <div class="flex flex-row content-center justify-center mb-[15px]">
+                <span class="text-5xl font-bold">22%</span>
+                <h1 class="self-end text-xl font-bold pl-[12px]">slope</h1>
+            </div>
+            <p class="text-center text-[15px]">Hill Climbing</p>
+        </div>
+        <div
+            class="p-[30px] ml-[20px] mr-[20px] w-[200px] flex flex-col justify-center hover:shadow-2xl cursor-pointer shadow-xl">
+            <h1 class="text-5xl font-bold text-center">2x</h1>
+            <p class="text-center text-[15px] mt-[15px]">Hydralic Disc Brakes</p>
+        </div>
+    </section>
+
+    <!-- <h1>Product information</h1> -->
+
+    <section class="flex flex-col justify-center items-center content-center mt-[150px] mb-[50px] ml-[10px] mr-[10px]">
+        <div class="justify-center flex flex-col text-center mb-[90px]">
+            <h1 class="text-5xl pb-[40px]">Product Informatioin</h1>
+            <p class="text-[20px] text-[#555454]">Our Scooter has following uniqe design and technology features:</p>
+        </div>
+        <div class="flex flex-row items-center w-full">
+            <img class="justify-self-start w-[55%]" src="./images/product information image.png" alt="image">
+            <ul class="ml-[150px] flex flex-col">
+                <li class="mb-[35px] flex flex-row">
+                    <img class="w-[70px] h-[50px] pr-[20px]" src="./images/Icon.png" alt="icon">
+                    <h1 class="text-xl self-center">Lightweight aircraft grade aluminium frame</h1>
+                </li>
+                <li class="mb-[35px] flex flex-row">
+                    <img class="w-[70px] h-[50px] pr-[20px]" src="./images/Icon.png" alt="icon">
+                    <h1 class="text-xl self-center">Car grade lithium battery</h1>
+                </li>
+                <li class="mb-[35px] flex flex-row">
+                    <img class="w-[70px] h-[50px] pr-[20px]" src="./images/Icon.png" alt="icon">
+                    <h1 class="text-xl self-center">Self-balanced</h1>
+                </li>
+                <li class="mb-[35px] flex flex-row">
+                    <img class="w-[70px] h-[50px] pr-[20px]" src="./images/Icon.png" alt="icon">
+                    <h1 class="text-xl self-center">Plug n play</h1>
+                </li>
+                <li class="mb-[35px] flex flex-row">
+                    <img class="w-[70px] h-[50px] pr-[20px]" src="./images/Icon.png" alt="icon">
+                    <h1 class="text-xl self-center">Quick release adapter</h1>
+                </li>
+                <li class="mb-[35px] flex flex-row">
+                    <img class="w-[70px] h-[50px] pr-[20px]" src="./images/Icon.png" alt="icon">
+                    <h1 class="text-xl self-center">RFID key card</h1>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- <H1>motor part</H1> -->
+    <section class="flex flex-col justify-center items-center w-full mt-[50px] mb-[50px]">
+        <div class="w-full content-center justify-center">
+            <img class="content-center justify-center w-[98%]" src="./images/high efficiency motor.png" alt="logo">
+        </div>
+    </section>
+
+    <!-- <h1>multiple accessories</h1> -->
+
+    <section class="flex flex-col justify-center items-center content-center mt-[150px] mb-[50px] ml-[10px] mr-[10px]">
+        <div class="justify-center flex flex-col text-center mb-[90px]">
+            <h1 class="text-5xl pb-[40px]">Multiple Accessories</h1>
+            <p class="text-[20px] text-[#555454]">There are multiple modes for the scooter for your multiple needs.</p>
+        </div>
+        <div class="flex flex-row items-center w-full justify-between">
+            <ul class="flex ml-[30px] w-full flex-col">
+                <h1 class="text-[50px] font-bold mb-[10px]">Golf Bag Rock</h1>
+                <li class="mb-[35px] flex flex-row">
+                    <img class="w-[70px] h-[50px] pr-[20px]" src="./images/Icon.png" alt="icon">
+                    <h1 class="text-xl self-center">Material:Aluminium alloy</h1>
+                </li>
+                <li class="mb-[35px] flex flex-row">
+                    <img class="w-[70px] h-[50px] pr-[20px]" src="./images/Icon.png" alt="icon">
+                    <h1 class="text-xl self-center">Color:Black</h1>
+                </li>
+                <li class="mb-[35px] flex flex-row">
+                    <img class="w-[70px] h-[50px] pr-[20px]" src="./images/Icon.png" alt="icon">
+                    <h1 class="text-xl self-center">Capacity:45lbs</h1>
+                </li>
+                <li class="mb-[35px] flex flex-row">
+                    <img class="w-[70px] h-[50px] pr-[20px]" src="./images/Icon.png" alt="icon">
+                    <h1 class="text-xl self-center">Ease:Steady & adjustable</h1>
+                </li>
+            </ul>
+            <img class="h-full w-[70%]" src="./images/golf bag rock.png" alt="pic">
+        </div>
+        <!-- <h1>shoping rack</h1> -->
+
+        <div class="flex flex-row mb-11 items-center mt-[100px] w-full">
+            <img class="justify-self-start relative -left-3 w-[100%]" src="./images/shopping rack.png" alt="image">
+            <ul class="flex ml-[250px] w-full flex-col">
+                <h1 class="text-[50px] font-bold mb-[10px]">Shoping Rack</h1>
+                <li class="mb-[35px] flex flex-row">
+                    <img class="w-[70px] h-[50px] pr-[20px]" src="./images/Icon.png" alt="icon">
+                    <h1 class="text-xl self-center">Material:Aluminium alloy</h1>
+                </li>
+                <li class="mb-[35px] flex flex-row">
+                    <img class="w-[70px] h-[50px] pr-[20px]" src="./images/Icon.png" alt="icon">
+                    <h1 class="text-xl self-center">Color:Black</h1>
+                </li>
+                <li class="mb-[35px] flex flex-row">
+                    <img class="w-[70px] h-[50px] pr-[20px]" src="./images/Icon.png" alt="icon">
+                    <h1 class="text-xl self-center">Capacity:45lbs</h1>
+                </li>
+                <li class="mb-[35px] flex flex-row">
+                    <img class="w-[70px] h-[50px] pr-[20px]" src="./images/Icon.png" alt="icon">
+                    <h1 class="text-xl self-center">Ease:Quick & adjustable</h1>
+                </li>
+            </ul>
+        </div>
+        <button
+            class="text-4xl p-[20px] pl-[40px] text-[#626262] pr-[40px] border-2 border-black rounded-lg font-bold cursor-pointer hover:font-bold hover:scale-[1.05] transition-all duration-[0.6s] hover:text-[#000000]">More
+            Accessories Coming Soon</button>
+    </section>
+    <!-- <h1>Gallery</h1> -->
+
+    <section class="justify-center flex flex-col text-center mb-[10px]">
+        <div class="justify-center flex flex-col text-center mb-[10px]">
+            <h1 class="text-5xl pb-[40px]">Gallery</h1>
+            <p class="text-[20px] text-[#555454]">View gallery of our products and make yourself satisfied with our
+                creation.</p>
+        </div>
+        <div class="grid grid-cols-2 w-full justify-center content-center items-center">
+            <div
+                class="p-[20px]  hover:scale-[1.02] cursor-pointer transition-all duration-[0.5s] w-full mt-[200px] ml-[30px]">
+                <h1 class="font-sans font-bold text-left pl-[20px] -bottom-[70px] relative text-3xl">Scooter</h1>
+                <img class="w-[90%]" src="./images/gallery scooter.png" alt="image">
+            </div>
+            <div
+                class="p-[20px]  hover:scale-[1.02] cursor-pointer transition-all duration-[0.5s] relative bottom-[80px] w-full ml-[30px]">
+                <h1 class=" font-sans font-bold text-left pl-[20px] -bottom-[70px] relative text-3xl">Built Quality</h1>
+                <img class="w-[90%]" src="./images/gallery built quality.png" alt="image">
+            </div>
+            <div
+                class="p-[20px] ml-[20px] w-full flex flex-col items-start content-start justify-start relative bottom-[75px]">
+                <button class="border-2 border-black m-2 mb-[25px] w-[80%] content-center hover:scale-105 font-sans font-bold text-4xl p-[25px] rounded-lg
+                transition-all duration-[0.6s]">Battery Images</button>
+                <button class="border-2 border-black m-2 mb-[25px] w-[80%] content-center hover:scale-105 font-sans font-bold text-4xl p-[25px] rounded-lg
+                transition-all duration-[0.6s]">Spare Parts Images</button>
+                <button class="border-2 border-black m-2 mb-[25px] w-[80%] content-center hover:scale-105 font-sans font-bold text-4xl p-[25px] rounded-lg
+                transition-all duration-[0.6s]">Charging Cable Images</button>
+            </div>
+            <div
+                class="p-[20px]  hover:scale-[1.02] cursor-pointer transition-all duration-[0.5s] bottom-[165px] relative h-full w-full ml-[30px]">
+                <h1 class=" font-sans font-bold text-left pl-[20px] -bottom-[70px] relative text-3xl">Parts</h1>
+                <img class="w-[90%]" src="./images/gallery parts.png" alt="image">
+            </div>
+        </div>
+    </section>
+
+    <!-- <h1>scooter color</h1> -->
+
+    <section class="justify-center flex flex-col text-center mb-[10px]">
+        <div class="justify-center flex flex-col text-center mb-[100px]">
+            <h1 class="text-5xl font-bold pb-[30px]">Colors</h1>
+            <p class="text-[20px] text-[#555454]">Checkout our products colors</p>
+        </div>
+        <div class="flex flex-col justify-center content-center">
+            <div class=" bg-[#eeeded] flex justify-end">
+                <img class="w-[90%]  h-[900px]" src="./images/gallery scooter.png" alt="image">
+            </div>
+            <div class="bg-transparent relative -top-[175px] flex flex-row justify-center content-center">
+                <div
+                    class="flex flex-col transition-all hover:animate-pulse duration-[0.7s] hover:scale-[1.05] cursor-pointer">
+                    <img src="./images/color-scooter-1.png" alt="image">
+                    <h1
+                        class="relative text-right pr-[75px] -top-[165px] text-7xl font-extrabold opacity-70 text-[#ffffff]">
+                        01</h1>
+                </div>
+                <div
+                    class="flex flex-col transition-all hover:animate-pulse duration-[0.7s] hover:scale-[1.05] cursor-pointer">
+                    <img src="./images/color-scooter-2.png" alt="image">
+                    <h1
+                        class=" relative text-right pr-[75px] -top-[165px] text-7xl font-extrabold opacity-70 text-[#ffffff]">
+                        02</h1>
+                </div>
+                <div
+                    class="flex flex-col transition-all hover:animate-pulse duration-[0.7s] hover:scale-[1.05] cursor-pointer">
+                    <img src="./images/color-scooter-3.png" alt="image">
+                    <h1
+                        class="relative text-right pr-[75px] -top-[165px] text-7xl font-extrabold opacity-70 text-[#ffffff]">
+                        03</h1>
+                </div>
+                <div
+                    class="flex flex-col transition-all hover:animate-pulse duration-[0.7s] hover:scale-[1.05] cursor-pointer">
+                    <img src="./images/color-scooter-4.png" alt="image">
+                    <h1
+                        class="relative text-right pr-[55px] -top-[165px] text-7xl font-extrabold opacity-70 text-[#ffffff]">
+                        04</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <h1>Testimonials</h1> -->
+
+    <section class="justify-center relative -top-[150px] flex flex-col text-center mb-[10px]">
+        <div class="justify-center flex flex-col text-center mb-[30px]">
+            <h1 class="text-5xl font-bold pb-[10px]">Testimonials</h1>
+        </div>
+        <div class="flex flex-row justify-center content-center items-center w-screen">
+            <div
+                class="border-[1px] border-black rounded-md hover:border-none hover:shadow-xl hover:bg-white bg-[#fbf9f9] h-[400px] p-9 m-5 flex flex-col items-center justify-center content-center">
+                <img class="w-[150px] mb-[20px]"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkgWPQKzFKy_6UEVy8lvbDsqRbYiy1CX73Aw&usqp=CAU"
+                    alt="image">
+                <p class="text-2xl font-semibold">On the other hand, we denounce <br> with righteous indignation and
+                    <br> dislike men who are so beguiled <br> and demoralized by the charms <br> of pleasure.
+                </p>
+                <div class="flex flex-row mt-[50px] cursor-pointer">
+                    <img class="scale-125" src="./images/serhiy hipskyy.png" alt="ceo">
+                    <div class="ml-7 scale-110">
+                        <h1 class="font-bold">Serhiy Hipskyy</h1>
+                        <p class="font-normal">CEO Universal</p>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="border-[1px] border-black rounded-md hover:border-none hover:shadow-xl hover:bg-white bg-[#fbf9f9] p-9 h-[400px] m-5 flex flex-col items-center justify-center content-center">
+                <img class="w-[150px] mb-[20px]"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkgWPQKzFKy_6UEVy8lvbDsqRbYiy1CX73Aw&usqp=CAU"
+                    alt="image">
+                <p class="text-2xl font-semibold">Nam libero tempore, cum soluta <br> nobis est eligendi optio cumque
+                    <br> nihil impedit quo minus id quod <br> maxime placeat facere possimus.
+                </p>
+                <div class="flex flex-row mt-[50px] cursor-pointer">
+                    <img class="scale-125" src="./images/Justus Menke.png" alt="ceo">
+                    <div class="ml-7 scale-110">
+                        <h1 class="font-bold">Justus Menke</h1>
+                        <p class="font-normal">CEO Eronaman</p>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="border-[1px] border-black rounded-md hover:border-none hover:shadow-xl hover:bg-white bg-[#fbf9f9] p-9 h-[400px] m-5 flex flex-col items-center justify-center content-center">
+                <img class="w-[150px] mb-[20px]"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkgWPQKzFKy_6UEVy8lvbDsqRbYiy1CX73Aw&usqp=CAU"
+                    alt="image">
+                <p class="text-2xl font-semibold">At vero eos et accusamus et <br> iusto odio dignissimos ducimus
+                    <br> qui blanditiis praesentium <br> voluptatum deleniti atque <br> corrupti quos dolores.
+                </p>
+                <div class="flex flex-row mt-[50px] cursor-pointer">
+                    <img class="scale-125" src="./images/Britain Eriksen.png" alt="ceo">
+                    <div class="ml-7 scale-110">
+                        <h1 class="font-bold">Britain Eriksen</h1>
+                        <p class="font-normal">CEO Universal</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-row justify-center content-center mt-8">
+            <button
+                class="border-2 border-black rounded-full font-bold text-center text-2xl hover:text-white hover:bg-black hover:border-none m-3 pt-[10px] pb-[10px] pl-[15px] pr-[15px]">&#129104;</button>
+            <button
+                class="border-2 border-black rounded-full font-bold text-center text-2xl hover:text-white hover:bg-black hover:border-none m-3 pt-[10px] pb-[10px] pl-[15px] pr-[15px]">&#129106;</button>
+        </div>
+    </section>
+
+    <!-- <h1>subscribe to newsletter</h1> -->
+
+    <section class="justify-center flex flex-col text-center mb-[150px]">
+        <div class="justify-center flex flex-col text-center mb-[50px]">
+            <h1 class="text-6xl font-bold pb-[30px]">Subscribe To Newsletter</h1>
+            <p class="text-[24px] text-[#555454]">Subscribe to our newsletter to get amazing offers in future.</p>
+        </div>
+        <div class="flex flex-row justify-center content-center w-screen h-[130px] p-[20px]">
+            <input
+                class="pl-[25px] pr-[10px] rounded-lg bg-[#ffffff] outline-none border-[1px] w-[32%] mr-[15px] text-black text-2xl"
+                type="email" value="Enter your email.">
+            <button
+                class="pl-[55px] pr-[55px] pt-[25px] pb-[25px] bg-[#3d3c3c] text-[#f5f2f2] hover:text-white rounded-lg font-normal text-2xl hover:bg-black">Get
+                start</button>
+        </div>
+    </section>
+
+    <!-- <h1>footer</h1> -->
+    <section
+        class="font-sans flex flex-col h-[550px] relative bottom-0 justify-center items-center content-center w-screen bg-[#464343]">
+
+        <!-- <h1>footer first part</h1> -->
+
+        <div class="flex flex-row w-screen justify-start">
+            <div class="relative -top-[95px] align-top">
+                <img src="./images/footer scooter.png" alt="scooter">
+            </div>
+            <div class="flex flex-row items-start mt-[40px]">
+                <ul class="m-9 h-[300px]">
+                    <h1 class="text-white p-3 font-bold text-3xl mb-[50px]">About</h1>
+                    <li
+                        class="font-normal cursor-pointer hover:font-bold transition-all duration-[0.3s] text-white p-3">
+                        Company</li>
+                    <li
+                        class="font-normal cursor-pointer hover:font-bold transition-all duration-[0.3s] text-white p-3">
+                        Teams</li>
+                    <li
+                        class="font-normal cursor-pointer hover:font-bold transition-all duration-[0.3s] text-white p-3">
+                        Profile</li>
+                    <li
+                        class="font-normal cursor-pointer hover:font-bold transition-all duration-[0.3s] text-white p-3">
+                        Careers</li>
+                </ul>
+                <ul class="m-9 h-[300px]">
+                    <h1 class="text-white font-bold text-3xl p-3 mb-[50px]">Resources</h1>
+                    <li
+                        class="font-normal cursor-pointer hover:font-bold transition-all duration-[0.3s] text-white p-3">
+                        Contact</li>
+                    <li
+                        class="font-normal cursor-pointer hover:font-bold transition-all duration-[0.3s] text-white p-3">
+                        Application</li>
+                    <li
+                        class="font-normal cursor-pointer hover:font-bold transition-all duration-[0.3s] text-white p-3">
+                        FQA Features</li>
+                </ul>
+                <ul class="m-9 h-[300px]">
+                    <h1 class="text-white font-bold text-3xl p-3 mb-[50px]">Legals</h1>
+                    <li
+                        class="font-normal cursor-pointer hover:font-bold transition-all duration-[0.3s] text-white p-3">
+                        Copyright Privacy</li>
+                    <li
+                        class="font-normal cursor-pointer hover:font-bold transition-all duration-[0.3s] text-white p-3">
+                        Policy Disclaimer</li>
+                    <li
+                        class="font-normal cursor-pointer hover:font-bold transition-all duration-[0.3s] text-white p-3">
+                        Terms</li>
+                    <li class="flex flex-row">
+                        <img class="cursor-pointer w-[40px] bg-white hover:scale-105 m-2 p-2 rounded-full"
+                            src="https://cdn-icons-png.flaticon.com/256/59/59439.png" alt="logo">
+                        <img class="cursor-pointer w-[40px] bg-white hover:scale-105 m-2 p-2 rounded-full"
+                            src="https://cdn-icons-png.flaticon.com/512/39/39552.png" alt="logo">
+                        <img class="w-[45px] bg-white hover:scale-105 m-2 h-[40px] p-[5px] cursor-pointer pl-1 pr-[3px]  rounded-full"
+                            src="https://toppng.com/uploads/thumbnail/black-instagram-logo-white-transparent-11641673201pakymtlauv.png"
+                            alt="logo">
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <h1 class="text-white relative -top-[60px] font-normal text-2xl">&#169; Copyright 2021. All rights reserved.
+        </h1>
+    </section>
+</body>
+
+</html>
